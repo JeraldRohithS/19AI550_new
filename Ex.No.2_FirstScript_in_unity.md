@@ -27,7 +27,7 @@ public class FirstScript : MonoBehaviour
         print("Welcome to Unity");
     }
 
-    // Update is called once per frame
+
     void Update()
     {
         
@@ -35,6 +35,9 @@ public class FirstScript : MonoBehaviour
 }
 ```
 ### Output:
+
+<img width="1263" height="663" alt="image" src="https://github.com/user-attachments/assets/32eb9407-e9e8-42e4-8f22-ab5730f8c513" />
+
 
 
 
