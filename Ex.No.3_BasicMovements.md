@@ -60,6 +60,7 @@ public class TransformOperations : MonoBehaviour
 
 
 
+<img width="1262" height="651" alt="image" src="https://github.com/user-attachments/assets/105cd166-9a41-4ecf-96bf-70352a7a2826" />
 
 
 
