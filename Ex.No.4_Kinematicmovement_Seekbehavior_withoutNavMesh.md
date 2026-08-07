@@ -29,65 +29,36 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class seekScript : MonoBehaviour
+public class Seek : MonoBehaviour
 {
     // Start is called before the first frame update
-    public Transform target;  // The object to seek
-    public float speed = 5f;  // Movement speed
+    public Transform target;
+    public Transform f;
+    public Transform s;
+    public float speed=5f;
     void Start()
     {
-        
+        print("welcome");
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (target == null) return;  // Exit if no target is assigned
-
-        // Calculate the desired direction
-        Vector3 direction = (target.position - transform.position).normalized;
-
-        // Move the object towards the target
-        transform.position += direction * speed * Time.deltaTime;
+       // seek script
+       Vector3 dir=(target.position - s.position).normalized;
+       s.position += dir * speed * Time.deltaTime;
+       // flee script
+       Vector3 dir2=(target.position - f.position).normalized;
+       f.position += dir2 * speed * Time.deltaTime;
+        }
     }
-}
-```
-```
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class fleeScript : MonoBehaviour
-{
-    // Start is called before the first frame update
-    public Transform target;  // The object to seek
-    public float speed = 5f;  // Movement speed
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        if (target == null) return;  // Exit if no target is assigned
-
-        // Calculate the desired direction
-        Vector3 direction = (transform.position-target.position).normalized;
-
-        // Move the object towards the target
-        transform.position += direction * speed * Time.deltaTime;
-    }
-}
 ```
 ### Output:
 
 
+<img width="981" height="748" alt="image" src="https://github.com/user-attachments/assets/a01f1c3a-651c-4682-a987-ee00e7fdb69a" />
 
-
-
-
-
+<img width="973" height="733" alt="image" src="https://github.com/user-attachments/assets/e3c9572d-655f-4200-bc73-46d0d6f56350" />
 
 
 ### Result:
