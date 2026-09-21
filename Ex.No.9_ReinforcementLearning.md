@@ -157,14 +157,17 @@ behaviors:
     max_steps: 500000
     time_horizon: 64
     summary_freq: 10000
+```
+
 ### Output:
 
+<img width="1260" height="672" alt="Screenshot 2026-09-21 092610" src="https://github.com/user-attachments/assets/0beb7cce-5637-42ce-8991-c0129136e737" />
 
+<img width="1264" height="633" alt="Screenshot 2026-09-21 092655" src="https://github.com/user-attachments/assets/f546f8fb-e754-4c67-99ae-bd2030108c4f" />
 
+<img width="1273" height="639" alt="Screenshot 2026-09-21 092721" src="https://github.com/user-attachments/assets/173ebf59-1d5a-476a-bdca-47a55d10e9f1" />
 
-
-
-
+<img width="909" height="630" alt="Screenshot 2026-09-21 092747" src="https://github.com/user-attachments/assets/8bd0817c-399f-43b0-9557-c24585b1c518" />
 
 
 ### Result:
